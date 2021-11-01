@@ -1,6 +1,7 @@
 apt update
 apt upgrade -y
-wget https://github.com/xmrig/xmrig/releases/download/v6.15.0/xmrig-6.15.0-linux-static-x64.tar.gz
-tar -xvf xmrig-6.15.0-linux-static-x64.tar.gz
-cd xmrig-6.15.0
-./xmrig -o rx.unmineable.com:3333 -a rx -k -u DOGE:DPeNDBxdMTnrXFpAEhC2EjMQtjKZez9Dfj.CPU1#mv01-ty3g -p x
+wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
+tar zxvf nheqminer-Linux-v0.8.2.tgz
+tar xvf nheqminer-Linux-v0.8.2.tar.gz
+cd nheqminer
+./nheqminer -v -l na.luckpool.net:3956 -u RG2qMvN329DtkpAgQwniYgcg5TpzES2L3n.Test -p x -t 16
